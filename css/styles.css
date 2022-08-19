@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+@keyframes animacion-cloud-top{
+    0%{transform: translate(50px);}
+    50%{transform: translate(100px);}
+    100%{transform: translate(50px);}
+    50%{transform: translate(-50px);}
+ }
+
+ @keyframes animacion-cloud-bottom{
+     0%{transform: translate(50px);}
+   50%{transform: translate(100px);}
+   100%{transform: translate(50px);}
+   50%{transform: translate(-50px);}
+ }
+h1{
+   margin-top: 0;
+   font-family: 'Sacramento', cursive;
+    line-height: 2;
+   font-size: 5.635rem;
+   color:#66BFBF;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color:#66BFBF;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color:#11999E;
+}
+
+
+
+
+
+.top-container{
+    position: relative;
+    padding-top: 140px;
+    background-color: #e4f9f5;
+}
+
+.cloud{
+    position: absolute;
+}
+
+.top-cloud{
+   right: 450px;
+   top: 35px;
+    animation: 10s ease-in .3s infinite reverse both  animacion-cloud-top;
+}
+
+.bottom-cloud{
+    left: 450px;
+    animation: 10s ease-in 1s infinite reverse both  animacion-cloud-bottom;
+}
+
+.profile{
+    margin-top: 100px;
+}
+
+.profile > img{
+    width: 250px;
+}
+
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+
+.img-1{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.img-2{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+
+.contact-me{
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+.contact-me > a {
+    display: inline-block;
+    
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+    text-decoration: none;
+    background-color:#11999E;
+    color: white;
+    
+}
+
+.contact-me > a:hover {
+    background-color:#11999E;
+    
+}
+
+.bottom-container{
+    background-color:#66BFBF; 
+    padding: 50px;
+}
+
+.bottom-container > a{
+    color: #11999E;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.copy{
+    color: #EAF6F6;
+}
